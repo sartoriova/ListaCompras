@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    margin: 0;
+      background-color: lightblue;
+
+  }
+
+h1 {
+color: black;
+text-align: center;
+}
+
+.container {
+background-image: url('../Imagens/fundo.png');
+width: 700px; 
+height: 100%;
+border: 2px solid black;
+padding: 4px;
+margin: 50px auto 50px auto;
+display: grid;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+
+.container2 {
+  background-image: url("../Imagens/fundo.png");
+    width: 500px; 
+    height: 100%;
+    border: 1px solid black;
+    padding: 4px;
+    display: grid;
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 100px 425px; 
+
+  }
+
+.d{
+  background-image: url('../Imagens/fundo.png');
+  padding: 12px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+#ladodireito { 
+text-align: center; 
+font-family: 'Times New Roman', Times, serif; 
+font-size: 18px;
+}
+  body {
+    margin: 0;
+  }
+
+  .topnav {
+    overflow: hidden;
+    color: white;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  h1 {
+    color: black;
+      font-family:Arial, Helvetica, sans-serif;
+  }
+ footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+      }
+  
+      .centro {
+        font-size: 50px;
+        margin: 100px 100px; 
+        text-align: center;
+        text-justify: inter-word;
+    }
+  h3 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  input[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: lightblue;
+    color: black;
+  }
+
+  .button {
+    padding: 12px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px gray;
+  }
+  
+  .button:hover {background-color: lightpink}
+
+  .button:active {
+    background-color: rgb(199, 123, 235);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    box-shadow: 0 9px gray;
+
+  }
+  ::placeholder {
+  color: black;
+  font-size: 15px;  
+}
+.button1 {
+  padding: 12px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}

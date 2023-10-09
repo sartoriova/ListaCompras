@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras - Os Maiores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+    <!--- para poder usar a função soma -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="css/av2.css" rel="stylesheet">
+</head>
+
+<div class="d">
+    <table>
+        <tr>
+            <td><img width="120" height="120" src="Imagens/logo.png" /></td>
+            <td>
+                <h1 style="font-family: 'Rampart One', cursive; font-size: 50px;">&nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp&nbspSupermercado Os Melhores
+
+                </h1>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</div>
+<div class="topnav">
+    <h3 style="text-align: center;">Lista de compras<h3>
+</div>
+
+
+<div class="container">
+    <div id="ladodireito">
+        <div id="ladodireito">
+            <h2>Escreva o produto no campo abaixo: </h2>
+            <div id="entrada">
+                <input id="entradaInput" type="text" placeholder="Digite o produto" autofocus>
+                <br>
+                <input id="entradaButton" type="button" class="button" value="Cadastrar produto"
+                    onmousedown="verificaProduto()">
+            </div>
+            <section id="section">
+            </section>
+        </div>
+    </div>
+    <br>
+
+</div>
+<div class="container2">
+
+    <h1>Tabela de Produtos</h1>
+    <table border="1" id="tabela_produtos" style="text-align: center;">
+        <thead>
+            <tr>
+                <th>
+                    <h3>Produto</h3>
+                </th>
+                <th>
+                    <h3>Valor unitário</h3>
+                </th>
+                <th>
+                    <h3>Quantidade</h3>
+                </th>
+                <th>
+                    <h3>Total</h3>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr id="total_tudo">
+                <td> <strong>Total</strong> </td>
+                <td id="td_total_tudo" colspan="3">0</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<div class="container">
+    <br>
+    <div id="ladodireito">
+        <div id="entrada">
+            <input type="button" id="button_excluir" class="button" value="Excluir produto"
+                onclick="estruturaExcluir()">
+            <br>
+            <div style="text-align: center;">
+                <div id="div_excluir">
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="av2.js"></script>
+<div class="centro">
+    <p class="oi"> <img src="Imagens/logo.png" width="600" height="600" align="left">
+        <br>
+        <br>
+        <br>
+        <td><img width="410" height="230" src="Imagens/marcaLV.PNG" />
+
+    </p>
+</div>
+
+
+<br>
+<br><br>
+<br><br>
+<br><br>
+<br>
+<br><br>
+<br><br>
+<br>
+<footer>
+    <br>
+    <br>
+    <div text-align: center;>Copyright©: Luquinhas e Valzinha<div>
+            <script>
+                now = new Date
+                now = new Date
+                document.write("Data de Acesso: " + now.getDate() + "/" + (now.getMonth() + 1) + "/" + now.getFullYear() + " às " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds())
+            </script>
+            <br>
+            <br>
+</footer>
+</body>
+
+</html>
